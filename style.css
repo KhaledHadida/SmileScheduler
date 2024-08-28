@@ -3,18 +3,26 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    background-color: #DFF3F9;
+    /* background-color: #B4D6FE; */
 }
 
+/* All headers */
+h1{
+    text-align: center;
+    margin: 5%;
+}
+
+/* Header navbar */
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
-    background-color: #B4D6FE;
+    background-color: #DFF3F9;
     align-items: center;
     font-size: 20px;
+    border-radius: 20px;
 }
 
 nav>ul>li {
@@ -28,6 +36,7 @@ nav ul li a {
     color: #113253;
     display: inline-block;
     font-weight: bold;
+    margin-right: 100px;
 }
 
 nav ul li img {
@@ -35,14 +44,61 @@ nav ul li img {
     margin: 10px;
 }
 
+/* Feature */
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    align-items: start; 
+    margin: 0 10%;
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px; 
+}
+
+.feature img {
+    width: 100%;
+    height: auto; 
+}
+
+.feature p {
+    margin: 0;
+
+
+}
+
+/* Challenge statement */
+
+.challenge{
+    text-align: center;
+    margin: 5% 10%;
+}
+
+.challengeInner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.challengeInner p{
+    width: 25%;
+    margin: auto;
+}
+
+.challenge img{
+    border-radius: 30%;
+}
 
 /* Pricing tiers */
 
 .pricingtiers{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
+    justify-content: center;
 }
 
 hr{
@@ -58,29 +114,35 @@ hr{
     border-style: solid;
     background-color: white;
     box-shadow: 10px 5px 2px #85959b;
+    margin: 0 50px;
 }
 
 /* Form */
 .form {
-    border-radius: 5px;
+    border-radius: 3%;
     background-color: #B4D6FE;
     padding: 20px;
     width: 60%;
     margin: auto;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
 }
 
-input[type=submit] {
+input[type=submit], button {
     background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width: 25%;
-    
 }
 
-input[type=submit]:hover {
+input[type=submit]{
+    width: 25%;
+}
+
+input[type=submit]:hover, button:hover {
     background-color: #45a049;
 }
 
@@ -95,5 +157,18 @@ textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    background-color: #e9f3ff; 
+    /* background-color: #e9f3ff;  */
+}
+
+
+/* footer */
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 15%;
+}
+
+.contact img{
+    border-radius: 25%;
 }

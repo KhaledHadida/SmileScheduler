@@ -19,10 +19,10 @@
                 <a href="index.html">Home</a>
             </li>
             <li>
-                <a href="#">About</a>
+                <a href="#features">Features</a>
             </li>
             <li>
-                <a href="#">Pricing</a>
+                <a href="#pricing">Pricing</a>
             </li>
             <li>
                 <a href="#contact-form">Contact</a>
@@ -30,7 +30,44 @@
         </ul>
     </nav>
 
-    <h1 style="text-align: center;">Our tier plans below:</h1>
+    <!-- Challenge Statement -->
+    <div class="challenge">
+        <h1 >Challenge Statement</h1>
+        <div class="challengeInner">
+            <img src="./images/heropic.jpg" alt="Hero Pic" height="500">
+            <p>
+                With our platform we help dental providers who want to simplify the process
+                of scheduling appointments for patients by reducing time spent making phone calls by using an automated
+                in-app scheduling process providing convenience for patients to freely book based on dentist's
+                availability and Reduce costs by decreasing the amount of receptionists in the office.
+            </p>
+        </div>
+    </div>
+
+    <!-- Features -->
+    <h1 id="features">Features</h1>
+    <div class="features">
+        <div class="feature">
+            <img src="./images/heropic.jpg" alt="Hero Pic" height="300">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eos porro velit, possimus aliquid hic
+                magnam voluptatibus veniam consequuntur recusandae voluptate illum repellendus, corporis fuga ut
+                mollitia nulla animi! Exercitationem.</p>
+        </div>
+        <div class="feature">
+            <img src="./images/heropic.jpg" alt="Hero Pic" height="300">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eos porro velit, possimus aliquid hic
+                magnam voluptatibus veniam consequuntur recusandae voluptate illum repellendus, corporis fuga ut
+                mollitia nulla animi! Exercitationem.</p>
+        </div>
+        <div class="feature">
+            <img src="./images/heropic.jpg" alt="Hero Pic" height="300">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eos porro velit, possimus aliquid hic
+                magnam voluptatibus veniam consequuntur recusandae voluptate illum repellendus, corporis fuga ut
+                mollitia nulla animi! Exercitationem.</p>
+        </div>
+    </div>
+
+    <h1 id="pricing" style="text-align: center;">Our tier plans below:</h1>
     <div class="pricingtiers">
         <div class="tier">
             <h2>Tier 1</h2>
@@ -62,12 +99,22 @@
             <hr>
             <p>1000 clients</p>
         </div>
+        <div class="tier">
+            <h2>Tier 3</h2>
+            <h3>$500</h3>
+            <hr>
+            <p>per month</p>
+            <p>$120 annually</p>
+            <button>BUY NOW!</button>
+            <hr>
+            <p>1000 clients</p>
+        </div>
     </div>
 
     <!-- Email Form -->
-    <h1 style="text-align: center;">Interested? Contact us below!</h1>
+    <h1 id="contact-form" style="text-align: center">Interested? Let's get in touch!</h1>
     <div class="form">
-        <form id="contact-form" action="/">
+        <form action="/">
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
             <label for="lname">Last Name</label>
@@ -100,5 +147,24 @@
     </div>
 </body>
 
+<footer>
+    <div class="contact">
+        <img src="./images/smile.png" alt="SmileLogo">
+        <div>
+            <h1>Contact us</h1>
+            <h3>PHONE</h3>
+            <p>(222) 444-9999</p>
+            <h3>EMAIL</h3>
+            <p>Support@SmileScheduler.com</p>
+            <h3>SOCIALS</h3>
+            <img src="./images/instagram.png" alt="instagram" height="50" style="margin: 0 10%;">
+            <img src="./images/facebook.png" alt="facebook" height="50">
+            <!-- Credits to pics -->
+            <!-- <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Pixel perfect - Flaticon</a> -->
+       
+        </div>
+    </div>
+</footer>
 
 </html>

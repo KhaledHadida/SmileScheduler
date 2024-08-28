@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #DFF3F9;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #B4D6FE;
+    align-items: center;
+    font-size: 20px;
+}
+
+nav>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #113253;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav ul li img {
+    border-radius: 20%;
+    margin: 10px;
+}
+
+
+/* Pricing tiers */
+
+.pricingtiers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+hr{
+    opacity: 0.3;
+}
+
+.tier{
+    width: 250px;
+    text-align: center;
+    border-radius: 25px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+    box-shadow: 10px 5px 2px #85959b;
+}
+
+/* Form */
+.form {
+    border-radius: 5px;
+    background-color: #B4D6FE;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 25%;
+    
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=text],
+input[type=tel],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #e9f3ff; 
+}

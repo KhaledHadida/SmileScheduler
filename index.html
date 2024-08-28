@@ -1,11 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>SmileScheduler</title>
 </head>
-<body>
 
+<body>
+    <!-- Header navbar -->
+    <nav>
+        <ul>
+            <li>
+                <img src="./images/smile.png" alt="SmileLogo" width="150">
+            </li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Pricing</a>
+            </li>
+            <li>
+                <a href="#contact-form">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 style="text-align: center;">Our tier plans below:</h1>
+    <div class="pricingtiers">
+        <div class="tier">
+            <h2>Tier 1</h2>
+            <h3>$500</h3>
+            <hr>
+            <p>per month</p>
+            <p>$120 annually</p>
+            <button>BUY NOW!</button>
+            <hr>
+            <p>1000 clients</p>
+        </div>
+        <div class="tier">
+            <h2>Tier 2</h2>
+            <h3>$500</h3>
+            <hr>
+            <p>per month</p>
+            <p>$120 annually</p>
+            <button>BUY NOW!</button>
+            <hr>
+            <p>1000 clients</p>
+        </div>
+        <div class="tier">
+            <h2>Tier 3</h2>
+            <h3>$500</h3>
+            <hr>
+            <p>per month</p>
+            <p>$120 annually</p>
+            <button>BUY NOW!</button>
+            <hr>
+            <p>1000 clients</p>
+        </div>
+    </div>
+
+    <!-- Email Form -->
+    <h1 style="text-align: center;">Interested? Contact us below!</h1>
+    <div class="form">
+        <form id="contact-form" action="/">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your lastname..">
+            <label for="lname">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your phone number..">
+            <label for="provinces">Province</label>
+            <select id="province" name="province">
+                <option value="AB">Alberta</option>
+                <option value="BC">British Columbia</option>
+                <option value="MB">Manitoba</option>
+                <option value="NB">New Brunswick</option>
+                <option value="NL">Newfoundland and Labrador</option>
+                <option value="NS">Nova Scotia</option>
+                <option value="NT">Northwest Territories</option>
+                <option value="NU">Nunavut</option>
+                <option value="ON">Ontario</option>
+                <option value="PE">Prince Edward Island</option>
+                <option value="QC">Quebec</option>
+                <option value="SK">Saskatchewan</option>
+                <option value="YT">Yukon</option>
+            </select>
+            <label for="comments">Comment</label>
+            <textarea id="comment" name="comment" placeholder="Any comments can be written here.."
+                style="height:200px"></textarea>
+            <div style="text-align: center;">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
 </body>
+
+
 </html>

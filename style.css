@@ -53,20 +53,21 @@ nav ul li img {
 .features {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px; 
+    gap: 2.5vw;
     align-items: start; 
-    margin: 0 10%;
+    margin: 0 5%;
 }
 
 .feature {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 10px; 
+    grid-template-columns: 2fr 1fr; 
+    gap: 2.5vw;
 }
 
 .feature img {
     width: 100%;
-    height: auto; 
+    height: auto;
+    align-self: center;
 }
 
 .feature p {
@@ -79,7 +80,7 @@ nav ul li img {
 
 .challenge{
     text-align: center;
-    margin: 5% 10%;
+    margin: 5vw 10vw;
 }
 
 .challengeInner{
@@ -96,6 +97,8 @@ nav ul li img {
 
 .challenge img{
     border-radius: 30%;
+    height: 25vw;
+
 }
 
 /* Pricing tiers */
@@ -119,7 +122,7 @@ hr{
     border-style: solid;
     background-color: white;
     box-shadow: 10px 5px 2px #85959b;
-    margin: 0 50px;
+    margin: 0 2.5vw;
 }
 
 /* Form */
@@ -174,6 +177,8 @@ textarea {
     margin: 5% 15%;
 }
 
-.contact img{
+.contact img:first-child{
     border-radius: 25%;
+    height: 15vw;
+    align-self: center;
 }

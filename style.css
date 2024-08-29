@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     /* background-color: #B4D6FE; */
+    font-size: large;
 }
 
 /* All headers */
@@ -60,7 +61,7 @@ nav ul li img {
 
 .feature {
     display: grid;
-    grid-template-columns: 2fr 1fr; 
+    grid-template-columns: 1fr; 
     gap: 2.5vw;
 }
 
@@ -125,6 +126,7 @@ hr{
     margin: 0 2.5vw;
 }
 
+
 /* Form */
 .form {
     border-radius: 3%;
@@ -170,7 +172,6 @@ textarea {
 
 
 /* footer */
-
 .contact{
     display: flex;
     justify-content: space-around;
